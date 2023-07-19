@@ -1,15 +1,20 @@
+#include "main.h"
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
+ * main – write _putchar
  *
- * Return:  Display 0 as task completed
+ * Return: 0
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+	int b;
+	char a[8] = "_putchar";
+	for (b = 0; b < 8; b++)
+	{
+		_putchar(a[b]);
+	}
+	_putchar('\n');
 	return (0);
 }
