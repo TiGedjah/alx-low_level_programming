@@ -1,23 +1,25 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet_x10 - generate 10 times of the alphabets
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
-
 void print_alphabet_x10(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	char ch;
 	int i;
-	int a = 0;
 
-	while (a < 10)
+	i = 0;
+
+	while (i < 10)
 	{
-		for (i = 0; i < 26; i++)
+		ch = 'a';
+		while (ch <= 'z')
 		{
-			_putchar(alp[i]);
+			_putchar(ch);
+			ch++;
 		}
-	putchar('\n');
-	a++;
+		_putchar('\n');
+		i++;
 	}
 }
