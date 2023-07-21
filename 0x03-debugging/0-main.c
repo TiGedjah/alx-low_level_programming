@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* main - Test function for sign
-* Return: 0
-*/
+ * main - Tests the function for positive or negative number
+ *
+ *  Return: 0
+ */
 int main(void)
 {
 int i;
