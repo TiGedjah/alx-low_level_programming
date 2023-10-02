@@ -29,7 +29,7 @@ char *create_buffer(char *file)
 
 /**
  * close_file - Checks the code
- * @fd: The file descriptor 
+ * @fd: The file descriptor
  */
 void close_file(int fd)
 {
